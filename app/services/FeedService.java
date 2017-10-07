@@ -10,6 +10,8 @@ import play.libs.ws.WSResponse;
 import java.util.concurrent.CompletionStage;
 import java.util.concurrent.ExecutionException;
 
-public class FeedService {
+public class FeedService
+    public FeedResponse getFeedResponse(String keyword)
+    {return Null;}
 
 }

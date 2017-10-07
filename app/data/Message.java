@@ -6,4 +6,5 @@ public class Message {
     public String keyword;
     public enum Sender{BOT,USER}
     public Sender sender;
+    public FeedResponse feedResponse;
 }
