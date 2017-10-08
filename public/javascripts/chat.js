@@ -21,7 +21,7 @@ app.controller('chatController', function ($scope, $sce) {
 
 
 
-    var  exampleSocket =  new  WebSocket("wss://http://swiftcode-abhi.herokuapp.com/chatSocket");
+    var  exampleSocket =  new  WebSocket("wss://swiftcode-abhi.herokuapp.com/chatSocket");
        exampleSocket.onmessage  =   function  (event) {
            var jsonData = JSON.parse(event.data);
            jsonData.time = new Date()
