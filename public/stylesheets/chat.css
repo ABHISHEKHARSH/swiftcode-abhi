@@ -1,6 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+
 #message-pane {
-   background: url(https://cdn4.iconfinder.com/data/icons/keynote-and-powerpoint-icons/256/Messages-512.png);
+   background: url(https://ak0.picdn.net/shutterstock/videos/25128350/thumb/1.jpg);
    background-repeat: no-repeat;
    background-size: cover;
    background-position: right bottom
 }
+   .message-card {
+   max-width: 75%;
+   border-radius: 10px;
+   padding: 10px;
+   font-size:15px;
+   font-family: 'Pacifico', cursive;
+
+   }
+
+   .message-time {
+    margin-top: 4px;
+    color: #666666;
+    font-size: 12px;
+   }
+   #form-card {
+   margin: 0px
+  }
